@@ -1,0 +1,4 @@
+org\dubbo\dao\ProviderDao.class
+org\dubbo\dao\InstitutionDao.class
+org\dubbo\impl\ProviderServiceImpl.class
+org\dubbo\impl\InstitutionServiceImpl.class

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="org.dubbo.dao" />
+		<!-- <property name="sqlSessionFactory" ref="sqlSessionFactory" /> -->
+		<!-- <property name="annotationClass" value="org.springframework.stereotype.Repository"/> -->
+	</bean>
+</beans>
